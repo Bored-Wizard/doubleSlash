@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/doubleSlash/static/css/main.9b4d4236.chunk.css",
+    "main.js": "/doubleSlash/static/js/main.969ce450.chunk.js",
+    "main.js.map": "/doubleSlash/static/js/main.969ce450.chunk.js.map",
+    "runtime-main.js": "/doubleSlash/static/js/runtime-main.8c7806b1.js",
+    "runtime-main.js.map": "/doubleSlash/static/js/runtime-main.8c7806b1.js.map",
+    "static/js/2.4f2ce8fd.chunk.js": "/doubleSlash/static/js/2.4f2ce8fd.chunk.js",
+    "static/js/2.4f2ce8fd.chunk.js.map": "/doubleSlash/static/js/2.4f2ce8fd.chunk.js.map",
+    "static/js/3.d7b6148b.chunk.js": "/doubleSlash/static/js/3.d7b6148b.chunk.js",
+    "static/js/3.d7b6148b.chunk.js.map": "/doubleSlash/static/js/3.d7b6148b.chunk.js.map",
+    "index.html": "/doubleSlash/index.html",
+    "static/css/main.9b4d4236.chunk.css.map": "/doubleSlash/static/css/main.9b4d4236.chunk.css.map",
+    "static/js/2.4f2ce8fd.chunk.js.LICENSE.txt": "/doubleSlash/static/js/2.4f2ce8fd.chunk.js.LICENSE.txt",
+    "static/media/styles.css": "/doubleSlash/static/media/mark.f260e872.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8c7806b1.js",
+    "static/js/2.4f2ce8fd.chunk.js",
+    "static/css/main.9b4d4236.chunk.css",
+    "static/js/main.969ce450.chunk.js"
+  ]
+}
