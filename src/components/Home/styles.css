@@ -1,0 +1,85 @@
+.Home {
+    scrollbar-width: 0;
+    overflow: hidden;
+    @apply bg-gray-500 flex h-screen w-screen relative justify-center items-center;
+}
+
+.btn {
+    @apply h-12 w-40 bg-green-500 flex justify-center items-center rounded-md m-2 text-white
+}
+
+.btn:active {
+    @apply bg-green-400;
+}
+#hero2 {
+    width: 100%;
+    height: 100vh;
+    background: url("./hero-bg.png");
+    position: relative;
+    justify-content: center;
+
+  }
+
+#hero2 .hero-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 0 15px;
+}
+#hero2 .hero-logo {
+  margin-bottom: 10px;
+  height: 10%;
+}
+
+#hero2 h1 {
+  margin: 0 0 30px 0;
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 56px;
+  color: #fff;
+}
+
+#hero2 h2 {
+  color: #aeaeae;
+  margin-bottom: 29px;
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+#hero2 .btn-get-started {
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 14px 30px;
+  border-radius: 3px;
+  margin: 10px;
+  color: #fff;
+  background: #7cc576;
+}
+
+#hero2 .btn-get-started:hover {
+  transition: 0.5s;
+  background: #fff;
+  color: #7cc576;
+}
+.GameL1 {
+    background: url("./hero-bg.png");
+    position: absolute;
+    top: 0;
+    transition: all 1s ease-in-out;
+    @apply flex justify-center items-center h-screen w-screen text-white;
+}
+
+.GameL2 {
+    background: #000;
+    position: absolute;
+    top: 0;
+    transition: all 1s ease-in-out;
+    @apply flex justify-center items-center h-screen w-screen text-white;
+}

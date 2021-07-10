@@ -1,0 +1,1 @@
+export const actionType1 = 'actionType1';
