@@ -1,11 +1,10 @@
 import React, {useState, useEffect} from 'react';
-import './styles.css';
 import { updateState } from "../../redux/component1/actions";
 import { useSelector, useDispatch} from 'react-redux';
 import { BiChevronRightCircle } from "react-icons/bi";
 import { AiOutlineMinus, AiOutlinePlus } from "react-icons/ai";
 
-const GameL2 = () => {
+const GameL3 = () => {
 
     const compState = useSelector(state => state.component1reducer);
     const dispatch = useDispatch();
@@ -19,7 +18,7 @@ const GameL2 = () => {
 
     const generateZones = () => {
         let marks = [];
-        while(marks.length < 8){
+        while(marks.length < 12){
             let coordinate = Math.floor(Math.random() * 1000) % 35;
             if(!marks.includes(coordinate)){
                 marks.push(coordinate);
@@ -43,19 +42,19 @@ const GameL2 = () => {
     }
 
     useEffect(() => {
-        if(compState.game2position !== "left-full opacity-0" && begin){
+        if(compState.game3position !== "left-full opacity-0" && begin){
             generateZones();
         }else{
             setzones([])
         }
-    }, [compState.game2position, begin])
+    }, [compState.game3position, begin])
 
     return (
-        <div className={`GameL2 ${compState.game2position}`}>
+        <div className={`GameL3 ${compState.game3position}`}>
             <div className="flex h-screen w-screen pt-3 pb-3">
                 <div className="w-1/3 h-full flex items-center flex-col">
                     <h5 className="mt-4 text-3xl font-bold text-center">
-                        Level 2 of Crypto Hunt
+                        Level 3 of Crypto Hunt
                     </h5>
                     <span className="mt-32 text-xl text-center opacity-40">
                         place a amount to start the game
@@ -121,4 +120,4 @@ const GameL2 = () => {
     )
 }
 
-export default GameL2
+export default GameL3

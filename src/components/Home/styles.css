@@ -77,9 +77,54 @@
 }
 
 .GameL2 {
-    background: #000;
+    background: url("./hero-bg.png");
     position: absolute;
     top: 0;
     transition: all 1s ease-in-out;
     @apply flex justify-center items-center h-screen w-screen text-white;
+}
+
+.GameL3 {
+  background: url("./hero-bg.png");
+  position: absolute;
+  top: 0;
+  transition: all 1s ease-in-out;
+  @apply flex justify-center items-center h-screen w-screen text-white;
+}
+
+.map {
+  background: url("./map1.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 60%;
+}
+
+.mark{
+  background: url("./mark.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  animation: fadein 1s linear infinite;
+  opacity: 0.5;
+}
+
+.smBtn {
+  @apply w-16 h-8 bg-blue-800 bg-opacity-50 rounded-md text-center flex justify-center items-center m-1;
+}
+
+.smBtn:active {
+  @apply bg-blue-700
+}
+
+@keyframes fadein {
+  0% {
+    opacity: 0.5;
+  }
+  50% {
+    opacity: 0.7;
+  }
+  100% {
+    opacity: 0.5;
+  }
 }
