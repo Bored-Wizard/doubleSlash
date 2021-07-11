@@ -1,5 +1,64 @@
 DOUBLE SLASH 
 IEEE JADAVAPUR HACKATHON
+
+THEME-BLOCKCHAIN 
+
+Detailed Explanation of the Idea: 
+
+Welcome, Bored Wizard! Hidden Objects Treasure Hunt is a new collection of finding treasure games on the theme of blokchain technology – embark on a mystery adventure and find the lost treasure in the gamein a secret manner! New  hidden object games free with mystery and suspense await you! Enter the game, run to the  to find the pirate treasure chest  the jewel quest! The best “treasure blockchain game” awaits you – grab your treasure map and  embark on a quest for epic loot in brand new hidden objects mystery games free of charge!Try it Now!!!!
+
+FEATURES OF HIDDEN OBJECTS TREASURE HUNT:
+⚜️ Thousands of hidden objects to find!
+⚜️ Exceptional graphics, 
+⚜️ Beautiful music and epic video game sounds!
+⚜️ Use help when you cannot locate the hidden object – play word hint games!
+⚜️ Zoom in the picture if the objects are too small for you!
+⚜️ The best treasure games - find the missing treasure?
+⚜️ Free to play, gear up for the game right now!
+
+Web Page link--
+
+
+𝗖𝗵𝗮𝗹𝗹𝗲𝗻𝗴𝗲𝘀 𝘄𝗲 𝗿𝗮𝗻 𝗶𝗻𝘁𝗼- The major challenges that we ran into were-
+1)Designing the Backend and intergrated them was little difficult and made complicated
+2)Make the page responsive was another task that made us difficult
+3)Coding Solidity and making it functioning was another major task where we found it difficult
+
+How we solved-- We tried to explore the problems by ourselves and we're able to 
+
+
+𝗧𝗲𝗰𝗵 𝗦𝘁𝗮𝗰𝗸-
+• HTML
+
+• CSS
+
+• Javascript
+
+• React
+
+• Nodejs
+
+•Eexpress Js
+
+•React Native
+
+•Blockchain
+
+•Solidity
+
+•
+
+•
+
+
+
+Note memo - This is an Blockchain Game created by our team by thinking of various creative  brainstorming and empathizing people who grab the treasure on blockchain mechansim.
+
+Entire content in this website is designed by our Team and we claim there are no copy right violation or plagiarized content.
+
+Copyright ©Bored-Wizard team
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
