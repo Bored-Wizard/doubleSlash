@@ -5,15 +5,20 @@ THEME-BLOCKCHAIN
 
 Detailed Explanation of the Idea: 
 
-Welcome, Bored Wizard! Hidden Objects Treasure Hunt is a new collection of finding treasure games on the theme of blokchain technology – embark on a mystery adventure and find the lost treasure in the gamein a secret manner! New  hidden object games free with mystery and suspense await you! Enter the game, run to the  to find the pirate treasure chest  the jewel quest! The best “treasure blockchain game” awaits you – grab your treasure map and  embark on a quest for epic loot in brand new hidden objects mystery games free of charge!Try it Now!!!!
+Welcome,to Bored Wizard! Hidden Objects Treasure Hunt is a new collection of finding treasure games on the theme of blokchain technology – embark on a mystery adventure and find the lost treasure in the gamein a secret manner! New  hidden object games free with mystery and suspense await you! Enter the game, run to the  to find the pirate treasure chest  the jewel quest! The best “treasure blockchain game” awaits you – grab your treasure map and  embark on a quest for epic loot in brand new hidden objects mystery games free of charge!Try it Now!!!!
 
 FEATURES OF HIDDEN OBJECTS TREASURE HUNT:
+
 ⚜️ Thousands of hidden objects to find!
-⚜️ Exceptional graphics, 
+
+⚜️ Exceptional graphics,
+
 ⚜️ Beautiful music and epic video game sounds!
-⚜️ Use help when you cannot locate the hidden object – play word hint games!
+
 ⚜️ Zoom in the picture if the objects are too small for you!
+
 ⚜️ The best treasure games - find the missing treasure?
+
 ⚜️ Free to play, gear up for the game right now!
 
 Web Page link--
@@ -38,7 +43,7 @@ How we solved-- We tried to explore the problems by ourselves and we're able to
 
 • Nodejs
 
-•Eexpress Js
+•Express Js
 
 •React Native
 
