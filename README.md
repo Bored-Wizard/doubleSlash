@@ -43,15 +43,13 @@ How we solved-- We tried to explore the problems by ourselves and we're able to
 
 • Nodejs
 
-•Express Js
-
 •React Native
 
-•Blockchain
+•Web3.js
 
 •Solidity
 
-•
+•Truffle
 
 •
 
