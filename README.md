@@ -3,6 +3,12 @@ IEEE JADAVAPUR HACKATHON
 
 THEME-BLOCKCHAIN 
 
+![Screenshot from 2021-07-11 10-47-07](https://user-images.githubusercontent.com/60476477/125183665-0bdbd600-e236-11eb-9eda-5e5569cdfd73.png)
+
+![Screenshot from 2021-07-11 10-47-31](https://user-images.githubusercontent.com/60476477/125183690-3e85ce80-e236-11eb-85d2-80736aa0baf5.png)
+
+
+
 Detailed Explanation of the Idea: 
 
 Welcome,to Bored Wizard! Hidden Objects Treasure Hunt is a new collection of finding treasure games on the theme of blokchain technology – embark on a mystery adventure and find the lost treasure in the gamein a secret manner! New  hidden object games free with mystery and suspense await you! Enter the game, run to the  to find the pirate treasure chest  the jewel quest! The best “treasure blockchain game” awaits you – grab your treasure map and  embark on a quest for epic loot in brand new hidden objects mystery games free of charge!Try it Now!!!!
