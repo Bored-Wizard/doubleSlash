@@ -20,7 +20,7 @@ const Home = () => {
            <section id="hero2">
                 <div className="hero-container">
                     <a href="index.html" className="hero-logo" data-aos="zoom-in"><img className="h-72" src="assets/img/hero-logo.png" alt=""  /></a>
-                    <h1 data-aos="zoom-in">Welcome To Celo Crypto</h1>
+                    <h1 data-aos="zoom-in">Welcome To Ethet hunt</h1>
                     <h2 data-aos="fade-up">Crypto Hunt</h2>
                     <div className="flex flex-row">
                         <div className="btn" onClick={() => {updateReduxState({game1position: "left-0 opacity-100"})}}>
@@ -32,7 +32,7 @@ const Home = () => {
                     </div>
                     <div className="flex flex-row">
                         <div className="btn" onClick={() => {updateReduxState({game3position: "left-0 opacity-100"})}}>
-                            <span className="pointer-events-none text-white">GameL1</span>
+                            <span className="pointer-events-none text-white">GameL3</span>
                         </div>
                     </div>
                 </div>

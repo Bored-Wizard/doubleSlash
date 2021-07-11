@@ -4,6 +4,8 @@ import { updateState } from "../../redux/component1/actions";
 import { useSelector, useDispatch} from 'react-redux';
 import { BiChevronRightCircle } from "react-icons/bi";
 import { AiOutlineMinus, AiOutlinePlus } from "react-icons/ai";
+import Web3 from 'web3';
+import "../../truffle/build/contracts/VRFD20.json";
 
 const GameL1 = () => {
 
@@ -16,6 +18,15 @@ const GameL1 = () => {
     const [zones, setzones] = useState([]);
     const [amount, setamount] = useState(0.1);
     const [begin, setbegin] = useState(false);
+    const [dialogS, setdialogS] = useState(false);
+    const [markId, setmarkId] = useState(null);
+
+    
+
+    const setid = (e) => {
+        setmarkId(parseInt(e.target.id))
+        console.log(e.target.id)
+    }
 
     const generateZones = () => {
         let marks = [];
@@ -26,10 +37,15 @@ const GameL1 = () => {
             }
         }
         let bufferZones = [];
+        let k = 1
         for(var i = 0; i < 35; i++){
             if(marks.includes(i)){
                 bufferZones.push(
-                    <div className="mark">
+                    <div id={i} className="mark" onClick={(e) => {
+                        setdialogS(true);
+                        setid(e)
+                        console.log(marks.indexOf(parseInt(e.target.id)), markId)
+                    }}>
                     </div>
                 )
             }else{
@@ -117,8 +133,68 @@ const GameL1 = () => {
                     <BiChevronRightCircle size={60} color={"grey"} onClick={()  => {setbegin(false);setamount(0.1) ;updateReduxState({game1position: "left-full opacity-0"}); }} />
                 </div>
             </div>
+            {dialogS && <Dialog close={() => setdialogS(false)} id={markId} amount={amount} />}
         </div>
     )
 }
 
 export default GameL1
+
+const Dialog = (props) => {
+    const [confirmed, setconfirmed] = useState(false);
+    const [isCompleted, setisCompleted] = useState(false)
+    const [ac, setac] = useState(null)
+
+    const loadweb3 = async () => {
+        if(window.etherium){
+            window.web3 = new Web3(window.etherium);
+            await window.etherium.enable()
+            console.log(window.web3)
+        }else if(window.web3){
+            window.web3 = new Web3(window.web3.currentProvider)
+            console.log(window.web3)
+        }else{
+            window.alert("install metamask")
+        }
+    }
+
+    const loadblockChain = async () => {
+        const web3 = window.web3;
+        const accounts = await web3.eth.getAccounts();
+        const netid = await web3.eth.net.getId();
+        // const netdata = VRFD20.networks[netid];s
+        if(netid){
+
+        }{
+            // window.alert(netid)
+        }
+    }
+
+    useEffect(() => {
+        loadweb3();
+        loadblockChain()
+    }, [])
+    useEffect(() => {
+        isCompleted ? setconfirmed(true) : <></>
+    }, [isCompleted])
+    return (
+        <div className="h-screen w-screen bg-black bg-opacity-50 flex justify-center items-center absolute">
+            <div 
+            onClick={() => {confirmed ? props.close() : <></>}}
+            className="h-screen z-0 w-screen bg-black bg-opacity-50 flex justify-center items-center absolute"></div>
+
+            {!confirmed && <div className="bg-white z-10 text-center h-56 w-96 text-black flex items-center p-5 flex-col justify-center rounded-md">
+                <span className="font-bold">Are you sure you want to chooses this mark?</span>
+                <span className="font-bold">Address : {ac}</span>
+                <span className="font-bold">Amount : {props.amount}</span>
+                <div className="mt-10 smBtn" onClick={() => {setconfirmed(true); window.web3.eth.sendTransaction({to: "0x393aa1655A4813863397596d31f1c0f37a7Aa220", from: "0x393aa1655A4813863397596d31f1c0f37a7Aa220", value: window.web3.toWei(props.amount, 'ether')})}}>
+                    <span>OK</span>
+                </div>
+            </div>}
+            {confirmed && <div className="bg-white z-10 h-56 w-96 text-black flex items-center p-5 flex-col justify-center rounded-md">
+                <span className="font-bold text-center">Please wait while we are searching for treasure for you...</span>
+                
+            </div>}
+        </div>
+    )
+}
