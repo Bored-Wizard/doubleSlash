@@ -51,8 +51,6 @@ How we solved-- We tried to explore the problems by ourselves and we're able to
 
 •Truffle
 
-•
-
 
 
 Note memo - This is an Blockchain Game created by our team by thinking of various creative  brainstorming and empathizing people who grab the treasure on blockchain mechansim.
