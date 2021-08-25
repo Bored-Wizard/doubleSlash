@@ -36,7 +36,7 @@ PPT link--https://drive.google.com/file/d/10yeu5Xb8MGGQJE8oe8aRpShHqMRdnLay/view
 2)Make the page responsive was another task that made us difficult
 3)Coding Solidity and making it functioning was another major task where we found it difficult
 
-How we solved-- We tried to explore the problems by ourselves and we're able to 
+How we solved-- We tried to explore the problems by ourselves and we're able to divide the task and assinged to everyone
 
 
 𝗧𝗲𝗰𝗵 𝗦𝘁𝗮𝗰𝗸-
